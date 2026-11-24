@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Company website - responsive, modern and fast.">
+  <title>NovaTech Solutions | Company Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="logo">Nova<span>Tech</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">&#9776;</button>
+      <nav id="navMenu" class="nav-menu">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact" class="btn btn-small">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="container hero-content">
+      <h1>We Build Solutions That Grow Your Business</h1>
+      <p>Reliable, modern and affordable services for businesses of every size.</p>
+      <div class="hero-buttons">
+        <a href="#contact" class="btn">Get a Free Quote</a>
+        <a href="tel:+911234567890" class="btn btn-outline">Call Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container about-grid">
+      <div class="about-text reveal">
+        <h2>About Us</h2>
+        <p>We are a dedicated team with over 10 years of experience delivering quality services. Our focus is customer satisfaction, honest pricing and on-time delivery.</p>
+        <ul class="checklist">
+          <li>Experienced professionals</li>
+          <li>Transparent pricing</li>
+          <li>24/7 customer support</li>
+        </ul>
+      </div>
+      <div class="stats reveal">
+        <div class="stat"><h3 data-count="500">0</h3><p>Projects Done</p></div>
+        <div class="stat"><h3 data-count="350">0</h3><p>Happy Clients</p></div>
+        <div class="stat"><h3 data-count="10">0</h3><p>Years Experience</p></div>
+        <div class="stat"><h3 data-count="25">0</h3><p>Team Members</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="section section-alt">
+    <div class="container">
+      <h2 class="center">Our Services</h2>
+      <p class="center sub">What we can do for you</p>
+      <div class="cards">
+        <div class="card reveal">
+          <div class="icon">&#128187;</div>
+          <h3>Web Development</h3>
+          <p>Fast, responsive websites and web apps tailored to your brand.</p>
+        </div>
+        <div class="card reveal">
+          <div class="icon">&#128241;</div>
+          <h3>Mobile Apps</h3>
+          <p>Android and iOS apps with smooth user experience.</p>
+        </div>
+        <div class="card reveal">
+          <div class="icon">&#9729;</div>
+          <h3>Cloud Services</h3>
+          <p>Secure hosting, storage and backup solutions.</p>
+        </div>
+        <div class="card reveal">
+          <div class="icon">&#128200;</div>
+          <h3>Digital Marketing</h3>
+          <p>SEO and social media campaigns that bring real customers.</p>
+        </div>
+        <div class="card reveal">
+          <div class="icon">&#128274;</div>
+          <h3>Cyber Security</h3>
+          <p>Protect your data and systems from modern threats.</p>
+        </div>
+        <div class="card reveal">
+          <div class="icon">&#128172;</div>
+          <h3>IT Consulting</h3>
+          <p>Expert advice to plan and scale your technology.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery" class="section">
+    <div class="container">
+      <h2 class="center">Our Work</h2>
+      <p class="center sub">A few of our recent projects (click to enlarge)</p>
+      <div class="gallery">
+        <img src="https://picsum.photos/id/1011/600/400" alt="Project 1">
+        <img src="https://picsum.photos/id/1015/600/400" alt="Project 2">
+        <img src="https://picsum.photos/id/1025/600/400" alt="Project 3">
+        <img src="https://picsum.photos/id/1035/600/400" alt="Project 4">
+        <img src="https://picsum.photos/id/1043/600/400" alt="Project 5">
+        <img src="https://picsum.photos/id/1050/600/400" alt="Project 6">
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section section-alt">
+    <div class="container">
+      <h2 class="center">What Clients Say</h2>
+      <div class="cards">
+        <div class="card reveal"><p>"Excellent service and very professional team. Delivered on time!"</p><h4>- Ramesh K.</h4></div>
+        <div class="card reveal"><p>"Great communication and fair pricing. Highly recommended."</p><h4>- Anita S.</h4></div>
+        <div class="card reveal"><p>"They understood our needs perfectly. Will work with them again."</p><h4>- Suresh M.</h4></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="container contact-grid">
+      <div class="contact-info reveal">
+        <h2>Contact Us</h2>
+        <p>Have a project in mind? Send us a message and we will reply within 24 hours.</p>
+        <p>&#128205; 123 Main Road, Bengaluru, India</p>
+        <p>&#128222; <a href="tel:+911234567890">+91 12345 67890</a></p>
+        <p>&#9993; <a href="mailto:info@novatech.com">info@novatech.com</a></p>
+      </div>
+      <form id="contactForm" class="contact-form reveal" novalidate>
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <input type="tel" id="phone" placeholder="Phone Number">
+        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+        <p id="formMsg" class="form-msg"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> NovaTech Solutions. All rights reserved.</p>
+      <div class="socials">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating call button (mobile) -->
+  <a href="tel:+911234567890" class="call-fab" aria-label="Call us">&#128222;</a>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox"><span class="close" id="lbClose">&times;</span><img id="lbImg" alt=""></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
